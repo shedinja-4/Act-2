@@ -1,0 +1,47 @@
+body {
+	font-family: Impact;
+}
+.A {
+	background-color: #3B0F4D;
+	width: 900px;
+	height: 250px;
+	color: white;
+}
+.A1 {
+	background-color: pink;
+	position: absolute;
+	top: 15%;
+	left: 30%;
+	border: double;
+}
+.A2 {
+	background-color: pink;
+	position: absolute;
+	top: 15%;
+	right: 30%;
+	border: double;
+}
+.A3 {
+	background-color: #8670BD;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	font-family: Impact;
+	text-align: center;
+}
+.A4 {
+	background-color: pink;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	font-family: Impact;
+}
+.B {
+	background-color: #3B0F4D;
+	width: 900px;
+	height: 250px;
+	color: white;
+}
+.B1 {
+	background-color: pink;
+}

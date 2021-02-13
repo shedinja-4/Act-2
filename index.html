@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Actividad 2</title>
+</head>
+<body background="Fondo.jpg">
+	<link rel="stylesheet" href="css.css">
+	<form>
+		<center><div class="A">
+		<label><h1>Variables :</h1></label><br>
+		<input type="text" id="Nu1" placeholder="Numero 1" class="A1">
+		<br>
+		<input type="text" id="Nu2" placeholder="Numero 2" class="A2">
+		<br>
+		<input value="Ingresar" onclick="a();" class="A3">
+		<br>
+		<br>
+		<label>Resultado :</label><br>
+		<input id="R" value="0" class="A4">
+		</div></center>
+		<br>
+		<br>
+		<center><div class="B">
+		<label><h1>Busqueda :</h1></label><br>
+		<input type="text" id="Bus" placeholder="Numero de posicion" class="B1">
+		<br>
+		<br>
+		<input value="Ingresar" onclick="b();" class="A3">
+		<br>
+		<br>
+		<input type="text" id="R2" value="Resultado" class="B1">
+	    </div></center>
+	</form>
+	<script type="text/javascript">
+	var c = [];
+	var Con = 0;
+	function a() {
+		var n1 = document.getElementById("Nu1");
+        var n2 = document.getElementById("Nu2");
+        var re = document.getElementById("R");
+        sum = Number(n1.value) + Number(n2.value);
+        c.push(sum);
+        re.value = sum;
+        console.log(c);
+        }
+    function b() {
+    	var a1 = document.getElementById("Bus");
+    	var re = document.getElementById("R2");
+    	re.value = c[a1.value - 1]
+    }
+</script>
+</body>
+</html>
